@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+
+    android:background="@drawable/shadow_drawable"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViewSira"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_weight=".10"
+        android:layout_height="match_parent"
+        android:textColor="#706F6F"
+
+        android:text="TextView" />
+
+    <LinearLayout
+        android:layout_width="3dp"
+        android:background="@color/colorOfapp"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight=".40"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewnotkonu"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            />
+        <TextView
+            android:id="@+id/textViewnot"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:textColor="#706F6F"
+
+            android:text="TextView" />
+
+    </LinearLayout>
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textViewtarih"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="18dp"
+        android:layout_width="0dp"
+        android:layout_weight=".20"
+        android:layout_height="match_parent"
+        android:textColor="#706F6F"
+
+        android:gravity="end"
+        android:text="TextView"
+
+        />
+
+
+
+</LinearLayout>

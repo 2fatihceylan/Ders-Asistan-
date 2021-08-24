@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".ActivityKayitEkleme">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editdersadi"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/colorOfapp"
+
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Ders Adı"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editaciklama"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/colorOfapp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Açıklama"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvtarih"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+         />
+
+    <Button
+        android:id="@+id/buttontarihsec"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        style="@style/Theme.DersAsistanı"
+        android:text="Tarih Seç" />
+
+    <TextView
+        android:id="@+id/tvbassaat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+         />
+
+    <Button
+        android:id="@+id/buttonbassaat"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/Theme.DersAsistanı"
+        android:text="Başlangıç Saati" />
+
+    <TextView
+        android:id="@+id/tvbitsaat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+         />
+
+    <Button
+        android:id="@+id/buttonbitsaat"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/Theme.DersAsistanı"
+        android:text="Bitiş Saati" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:id="@+id/radioanimsatici"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:id="@+id/rdbildirim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorOfapp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:buttonTint="@color/colorOfapp"
+            android:text="Bildirim ile hatırlat" />
+
+        <RadioButton
+            android:id="@+id/rdhatirlatma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:backgroundTint="@color/colorOfapp"
+            android:buttonTint="@color/colorOfapp"
+            android:text="Hatırlatma" />
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/buttonrenksec"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        style="@style/Theme.DersAsistanı"
+        android:layout_gravity="center"
+        android:text="Renk Seç" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

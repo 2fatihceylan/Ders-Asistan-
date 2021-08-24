@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/action_bes"
+        android:icon="@drawable/ic_baseline_today_24"
+        android:title="Takvim" />
+
+
+    <item
+        android:id="@+id/action_birinci"
+        android:icon="@drawable/birinci_resim"
+        android:title="Dersler" />
+
+    <item
+        android:id="@+id/action_dort"
+        android:icon="@drawable/ic_baseline_note_24"
+        android:title="Notlar" />
+
+    <item
+        android:id="@+id/action_ikinci"
+        android:icon="@drawable/ikinci_resim"
+        android:title="Kronometre" />
+
+    <item
+        android:id="@+id/action_ucuncu"
+        android:icon="@drawable/ucuncu_resim"
+
+        android:title="Profil" />
+</menu>

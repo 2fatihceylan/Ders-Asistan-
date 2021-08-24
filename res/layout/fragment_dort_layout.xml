@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="45sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorOfapp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Notlar" />
+
+
+    <Button
+        android:id="@+id/buttonnotekle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Theme.DersAsistanı"
+        android:text="Not Ekle" />
+
+    <ListView
+        android:id="@+id/listviewnot"
+        android:layout_width="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8.0sp"
+
+        android:layout_height="match_parent" />
+
+</LinearLayout>
